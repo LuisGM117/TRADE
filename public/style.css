@@ -1,0 +1,48 @@
+body{
+    background-color: #7FB5FF;
+    font-family: "Montserrat";
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+.navbar{
+    padding-top: 10%;
+    padding-bottom: 2.5rem;
+    background-color: #2155CD;
+}
+
+
+.personImg{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#personas{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.btn-success{
+    height: 60px;
+    margin: 10% auto;
+}
