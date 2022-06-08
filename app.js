@@ -19,9 +19,14 @@ app.get("/", function(req, res){
 });
 
 app.post("/signup", function(req, res){
-    console.log(req.body.signupButton);
+   // console.log(req.body.signupButton);
+    console.log(req.body);
     res.redirect("/home");
 
+});
+
+app.get("/login", function(req, res){
+    res.render("login");
 });
 
 
